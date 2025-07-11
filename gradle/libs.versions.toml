@@ -1,5 +1,7 @@
 [versions]
+gragle = "1.0.0-Alpha"
 
 [libraries]
 
 [plugins]
+gragle = { id = "io.github.heyysudarshan.gragle", version.ref = "gragle" }
