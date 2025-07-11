@@ -32,3 +32,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+includeBuild("../Gragle")
