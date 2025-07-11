@@ -15,6 +15,6 @@ Google’s `Material 3`, while web developers use libraries like `Shadcn` or `Ta
 platform-specific. Even though `Material 3` supports `Compose Multiplatform`, I found it lacking the visual appeal and
 smooth experience I was aiming for. That said, its design guidelines are still highly valuable.
 
-So, I decided to create this component library and design system. It builds on Material 3’s typography and guidelines
-but offers beautiful, intuitive components right out of the box. It aims to deliver a consistent look and feel across
-all platforms, ensuring a unified UI and UX experience.
+That’s why I set out to build this component library and design system. While it takes inspiration from Material 3’s
+typography and principles, it introduces visually appealing and thoughtfully crafted components from the start. The goal
+is to maintain a cohesive visual style and user experience across all platforms.
