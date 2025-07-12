@@ -1,7 +1,9 @@
 [versions]
-gragle = "1.0.0-Alpha"
+# Julie module information
+julie-groupId = "io.github.heyysudarshan.julie"
+julie-version = "1.0.0-Alpha"
 
 [libraries]
 
 [plugins]
-gragle = { id = "io.github.heyysudarshan.gragle", version.ref = "gragle" }
+gragle = { id = "io.github.heyysudarshan.gragle" }
