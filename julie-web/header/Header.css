@@ -5,11 +5,18 @@
 }
 
 .header-link {
-    padding: 16px 20px;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.without-logo {
+    padding: 16px 20px;
+}
+
+.with-logo {
+    padding: 12px 20px;
 }
 
 .header-link:hover {
@@ -21,8 +28,22 @@
     border-radius: 100%;
 }
 
-.header-title {
-    color: var(--primary-font-color);
+.header-navigation ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.header-navigation-option {
+    height: 100%;
+}
+
+.header-navigation-option-link {
+    height: 100%;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
