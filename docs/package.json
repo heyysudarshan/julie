@@ -2,6 +2,16 @@
     "name": "julie-documentation",
     "version": "0.0.1-Alpha",
     "private": "true",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "julie": "file:../julie-web"
+    },
     "description": "Documentation site for Julie.",
     "author": "Sudarshan Mhasrup",
     "license": "Apache-2.0",
@@ -9,11 +19,5 @@
         "Documentation",
         "Component Library",
         "Design System"
-    ],
-    "dependencies": {
-        "next": "latest",
-        "react": "latest",
-        "react-dom": "latest",
-        "julie": "file:../julie-web"
-    }
+    ]
 }
