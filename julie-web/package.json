@@ -1,16 +1,21 @@
 {
     "name": "julie",
     "version": "0.0.1-Alpha",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    },
     "description": "A component library and design system designed to empower the creation of beautiful user interfaces for websites. ",
     "author": "Sudarshan Mhasrup",
     "license": "Apache-2.0",
     "keywords": [
         "Component Library",
         "Design System"
-    ],
-    "dependencies": {
-        "next": "latest",
-        "react": "latest",
-        "react-dom": "latest"
-    }
+    ]
 }
