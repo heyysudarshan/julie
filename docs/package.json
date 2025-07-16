@@ -13,6 +13,7 @@
     "dependencies": {
         "next": "latest",
         "react": "latest",
-        "react-dom": "latest"
+        "react-dom": "latest",
+        "julie": "file:../julie-web"
     }
 }
