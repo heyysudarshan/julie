@@ -47,10 +47,14 @@
     align-items: center;
 }
 
+.header-navigation-option-link:hover {
+    background-color: var(--surface-hover-color);
+    font-weight: 600;
+}
+
 .header-navigation-option-indicator {
     height: 3px;
     width: 28px;
-    background-color: var(--primary-color);
     border-radius: 100px;
 }
 
