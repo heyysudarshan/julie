@@ -40,10 +40,18 @@
 
 .header-navigation-option-link {
     height: 100%;
-    padding: 12px 24px;
+    padding: 12px 20px;
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.header-navigation-option-indicator {
+    height: 3px;
+    width: 28px;
+    background-color: var(--primary-color);
+    border-radius: 100px;
 }
 
 @media (max-width: 768px) {
