@@ -8,12 +8,25 @@
     padding: 16px 20px;
     text-decoration: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-link:hover {
     background-color: var(--surface-hover-color);
 }
 
+.header-logo {
+    height: 40px;
+    border-radius: 100%;
+}
+
 .header-title {
     color: var(--primary-font-color);
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+        height: 28px;
+    }
 }
