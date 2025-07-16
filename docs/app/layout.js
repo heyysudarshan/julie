@@ -1,6 +1,6 @@
 import webInfo from "./WebInfo";
 
-const NextApp = () => {
+const NextApp = ({children}) => {
     return (
         <html lang="en">
             <head>
@@ -11,7 +11,7 @@ const NextApp = () => {
             </head>
             <body>
                 <div className="next-app">
-
+                    {children}
                 </div>
             </body>
         </html>
