@@ -1,0 +1,44 @@
+.spacer-4px-height {
+  height: 4px;
+}
+
+.spacer-8px-height {
+  height: 8px;
+}
+
+.spacer-12px-height {
+  height: 12px;
+}
+
+.spacer-16px-height {
+  height: 16px;
+}
+
+.spacer-20px-height {
+  height: 20px;
+}
+
+.spacer-4px-width {
+  width: 4px;
+  display: inline;
+}
+
+.spacer-8px-width {
+  width: 8px;
+  display: inline;
+}
+
+.spacer-12px-width {
+  width: 12px;
+  display: inline;
+}
+
+.spacer-16px-width {
+  width: 16px;
+  display: inline;
+}
+
+.spacer-20px-width {
+  width: 20px;
+  display: inline;
+}
