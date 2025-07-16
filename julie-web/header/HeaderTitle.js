@@ -12,7 +12,7 @@ import "./Header.css";
  */
 const HeaderTitle = ({ title }) => {
     return (
-        <Link href="/" className="header-link">
+        <Link href="/" className="header-link with-logo">
             <h1 className="title-medium semi-bold header-title">{title}</h1>
         </Link>
     );
