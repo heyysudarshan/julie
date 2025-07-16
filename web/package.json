@@ -1,0 +1,13 @@
+{
+    "name": "julie",
+    "version": "1.0.0",
+    "description": "A component library and design system designed to empower the creation of beautiful user interfaces across multiple platforms. ",
+    "author": "Sudarshan Mhasrup",
+    "license": "Apache-2.0",
+    "keywords": ["Component Library, Design System."],
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    }
+}
