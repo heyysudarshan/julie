@@ -5,6 +5,15 @@
 }
 
 .header-link {
-    padding: 20px;
+    padding: 16px 20px;
     text-decoration: none;
+    display: flex;
+}
+
+.header-link:hover {
+    background-color: var(--surface-hover-color);
+}
+
+.header-title {
+    color: var(--primary-font-color);
 }
