@@ -13,3 +13,6 @@
 # Node modules
 docs/node_modules
 julie-react/node_modules
+
+# Local properties
+local.properties
