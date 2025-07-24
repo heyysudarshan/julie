@@ -1,6 +1,12 @@
 {
     "name": "julie",
     "version": "1.0.0-alpha",
+    "private": false,
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    },
     "author": "Sudarshan Mhasrup",
     "keywords": [
         "Design System",
