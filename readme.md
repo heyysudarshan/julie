@@ -8,6 +8,12 @@ Designed for `Compose Multiplatform`, Julie works seamlessly across `Android`, `
 `iOS` with a shared codebase using `Compose Multiplatform`. It's also available for web projects
 using `React`, bringing the same smooth animations and high-quality UI/UX to every platform.
 
+### Learning guide
+
+Check out the [Julie learning guides](http://heyysudarshan.github.io/julie/learn-julie) to learn how
+to use Julie effectively in your project. The guide not only teaches you how to use each component
+but also explains the design thinking behind it.
+
 ### Installation guide
 
 To get started, add the Julie library to your existing Gradle project. To include Julie in any
