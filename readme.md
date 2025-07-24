@@ -8,7 +8,7 @@ Designed for `Compose Multiplatform`, Julie works seamlessly across `Android`, `
 `iOS` with a shared codebase using `Compose Multiplatform`. It's also available for web projects
 using `React`, bringing the same smooth animations and high-quality UI/UX to every platform.
 
-### Thank you
+### Thank you 🙌
 
 Thank you for checking out this project! What started as a personal project is now evolving into
 something more meaningful. If you're a designer with suggestions, I'd love to hear them. Please
