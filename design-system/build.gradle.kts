@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
+group = libs.versions.designSystem.group.get()
+version = libs.versions.designSystem.version.get()
+
 kotlin {
     androidTarget()
 
@@ -12,3 +15,11 @@ kotlin {
     iosArm64()
     iosSimulatorArm64()
 }
+
+android {
+    namespace = libs.versions.designSystem.namespace.get()
+    compileSdk = libs.versions.designSystem.compileSdk.get().toInt()
+}
+
+// Custom build directory
+layout.buildDirectory.set(file(path = "$rootDir/.build/designSystem"))
