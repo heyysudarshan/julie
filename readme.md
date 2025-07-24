@@ -14,6 +14,7 @@ To get started, add the Julie library to your existing Gradle project. To includ
 module, copy and paste the following line into your module's dependencies block as shown below.
 
 #### For Android projects
+
 ```groovy
 dependencies {
     // Other dependencies will go here
@@ -22,12 +23,50 @@ dependencies {
 ```
 
 #### For Compose Multiplatform projects
+
 ```kotlin
 kotlin {
     sourceSets {
         commonMain.dependencies {
             // Other dependencies will go here
             implementation("io.github.heyysudarshan:julie:1.0.0-alpha")
+        }
+    }
+}  
+```
+
+If your project uses a version catalog for centralized dependency management, add the following line
+to your `libs.versions.toml` file:
+
+```
+[versions]
+# Other version declarations will go here
+julie = "1.0.0-alpha"
+
+[libraries]
+# Other libraries declarations will go here
+julie = { module = "io.github.heyysudarshan:julie", version.ref = "julie" }
+```
+
+Then you can refer to the dependency in your `build.gradle` like this:
+
+#### For Android projects
+
+```groovy
+dependencies {
+    // Other dependencies will go here
+    implementation(libs.julie)
+}
+```
+
+#### For Compose Multiplatform projects
+
+```kotlin
+kotlin {
+    sourceSets {
+        commonMain.dependencies {
+            // Other dependencies will go here
+            implementation(libs.julie)
         }
     }
 }  
