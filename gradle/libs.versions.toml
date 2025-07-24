@@ -6,7 +6,7 @@ agp = "8.11.1"
 # Design sytem module information
 designSystem-group = "julie.design.system"
 designSystem-version = "1.0.0-alpha"
-designSystem-namespacae = "julie.design.system"
+designSystem-namespace = "julie.design.system"
 designSystem-compileSdk = "36"
 
 [libraries]
