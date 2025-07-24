@@ -3,6 +3,7 @@
 
 # Idea configuration folder
 .idea
+julie-react/.idea
 
 # Kotlin cache folder
 .kotlin
