@@ -32,3 +32,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+include(":design-system")
