@@ -11,7 +11,8 @@ using `React`, bringing the same smooth animations and high-quality UI/UX to eve
 ### Installation guide
 
 To get started, add the Julie library to your existing Gradle project. To include Julie in any
-module, copy and paste the following line into your module's dependencies block as shown below.
+module, copy and paste the following line into your module's `build.gradle.kts` file under the
+dependencies block as shown below.
 
 #### For Android projects
 
