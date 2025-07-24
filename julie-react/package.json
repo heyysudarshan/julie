@@ -3,9 +3,9 @@
     "version": "1.0.0-alpha",
     "private": false,
     "dependencies": {
-        "next": "latest",
-        "react": "latest",
-        "react-dom": "latest"
+        "next": "15.4.3",
+        "react": "19.1.0",
+        "react-dom": "19.1.0"
     },
     "author": "Sudarshan Mhasrup",
     "keywords": [
