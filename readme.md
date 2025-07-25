@@ -62,6 +62,12 @@ kotlin {
 }  
 ```
 
+For quickly copying the dependency, you can use the following command:
+
+```kotlin
+implementation("io.github.heyysudarshan:julie:1.0.0")
+```
+
 If your project uses a version catalog for centralized dependency management, add the following line
 to your `libs.versions.toml` file:
 
@@ -86,6 +92,12 @@ dependencies {
 }
 ```
 
+For quickly copying the dependency, you can use the following command:
+
+```kotlin
+implementation(libs.julie)
+```
+
 #### For Compose Multiplatform projects
 
 ```kotlin
@@ -97,6 +109,12 @@ kotlin {
         }
     }
 }  
+```
+
+For quickly copying the dependency, you can use the following command:
+
+```kotlin
+implementation(libs.julie)
 ```
 
 ### For React projects
