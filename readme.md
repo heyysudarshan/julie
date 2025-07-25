@@ -68,8 +68,8 @@ For quickly copying the dependency, you can use the following command:
 implementation("io.github.heyysudarshan:julie:1.0.0")
 ```
 
-If your project uses a version catalog for centralized dependency management, add the following line
-to your `libs.versions.toml` file:
+If your project uses a version catalog for centralized dependency management, add the following
+lines to your `libs.versions.toml` file:
 
 ```
 [versions]
