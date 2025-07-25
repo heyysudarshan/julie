@@ -1,5 +1,7 @@
 import website from "./WebInfo";
 
+import "/styles/Global.css";
+
 export const metadata = {
     title: website.title,
     description: website.description,
