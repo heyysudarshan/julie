@@ -11,6 +11,7 @@ designSystem-namespace = "julie.design.system"
 designSystem-compileSdk = "36"
 
 [libraries]
+compose-multiplaform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
