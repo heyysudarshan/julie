@@ -79,7 +79,7 @@ kotlin {
 }  
 ```
 
-### For web projects
+### For React projects
 
 ```kotlin
 npm i julie-react
