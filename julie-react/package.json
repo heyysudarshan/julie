@@ -2,7 +2,9 @@
     "name": "julie-react",
     "version": "1.0.0-alpha",
     "private": false,
-    "scripts": {},
+    "scripts": {
+        "build": "vite build",
+    },
     "devDependencies": {
         "vite": "^7.0.6"
     },
