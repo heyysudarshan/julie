@@ -2,6 +2,7 @@
 # Plugin and library versions
 kotlin = "2.2.0"
 agp = "8.11.1"
+activityCompose = "1.10.1"
 composeMultiplatform = "1.8.2"
 
 # Design sytem module information
@@ -11,8 +12,8 @@ designSystem-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-compileSdk = "36"
 
 # Julie preview android app package information
-juliePreviewAndroidApp-namespace = "io.github.heyysudarshan.julie.preview"
-juliePreviewAndroidApp-applicationId = "io.github.heyysudarshan.julie.preview"
+juliePreviewAndroidApp-namespace = "julie.preview.android"
+juliePreviewAndroidApp-applicationId = "julie.preview.android"
 juliePreviewAndroidApp-compileSdk = "36"
 juliePreviewAndroidApp-targetSdk = "36"
 juliePreviewAndroidApp-minSdk = "21"
@@ -30,6 +31,7 @@ juliePreview-namespace = "io.github.heyysudarshan.julie.preview"
 juliePreview-compileSdk = "36"
 
 [libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 compose-multiplaform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 
 [plugins]
