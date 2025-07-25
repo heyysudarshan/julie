@@ -1,6 +1,6 @@
 ### About Julie
 
-Julie is a component library and design system created for
+Julie is a component library and design system developed for
 [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform). It empowers developers
 to design beautiful, consistent, and accessible user interfaces across various platforms.
 
