@@ -7,8 +7,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: path.resolve(__dirname, 'src/index.js'),
-            name: 'Julie',
-            fileName: 'julie',
+            name: 'Julie React',
+            fileName: 'julie-react',
             formats: ['es', 'cjs'],
         },
         rollupOptions: {
