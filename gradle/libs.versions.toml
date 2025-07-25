@@ -5,10 +5,16 @@ agp = "8.11.1"
 composeMultiplatform = "1.8.2"
 
 # Design sytem module information
-designSystem-group = "julie.design.system"
+designSystem-group = "io.github.heyysudarshan.julie.design.system"
 designSystem-version = "1.0.0"
-designSystem-namespace = "julie.design.system"
+designSystem-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-compileSdk = "36"
+
+# Julie preview module information
+juliePreview-group = "io.github.heyysudarshan.julie.preview"
+juliePreview-version = "1.0.0"
+juliePreview-namespace = "io.github.heyysudarshan.julie.preview"
+juliePreview-compileSdk = "36"
 
 [libraries]
 compose-multiplaform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
