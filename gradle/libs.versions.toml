@@ -10,6 +10,19 @@ designSystem-version = "1.0.0"
 designSystem-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-compileSdk = "36"
 
+# Julie preview android app package information
+juliePreviewAndroidApp-namespace = "io.github.heyysudarshan.julie.preview"
+juliePreviewAndroidApp-applicationId = "io.github.heyysudarshan.julie.preview"
+juliePreviewAndroidApp-compileSdk = "36"
+juliePreviewAndroidApp-targetSdk = "36"
+juliePreviewAndroidApp-minSdk = "21"
+juliePreviewAndroidApp-versionCode = "1"
+juliePreviewAndroidApp-versionName = "1.0.0"
+
+# Julie preview android module  information
+juliePreviewAndroid-group = "io.github.heyysudarshan.julie.preview"
+juliePreviewAndroid-version = "1.0.0"
+
 # Julie preview module information
 juliePreview-group = "io.github.heyysudarshan.julie.preview"
 juliePreview-version = "1.0.0"
