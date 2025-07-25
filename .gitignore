@@ -4,6 +4,7 @@
 # Idea configuration folder
 .idea
 julie-react/.idea
+docs/.idea
 
 # Kotlin cache folder
 .kotlin
@@ -12,8 +13,8 @@ julie-react/.idea
 .build
 
 # Node modules
-docs/node_modules
 julie-react/node_modules
+docs/node_modules
 
 # Local properties
 local.properties
