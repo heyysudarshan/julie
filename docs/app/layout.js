@@ -11,7 +11,9 @@ const NextApp = ({children}) => {
     return (
         <html lang="en">
             <body>
-                <div className="main-app">{children}</div>
+                <div className="main-app">
+                    <main className="main-section">{children}</main>
+                </div>
             </body>
         </html>
     );
