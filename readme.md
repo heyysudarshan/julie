@@ -36,11 +36,17 @@ file under the `dependencies` block as shown below.
 
 #### For Android project
 
-```groovy
+```kotlin
 dependencies {
     // Other dependencies will go here
     implementation("io.github.heyysudarshan:julie:1.0.0")
 }
+```
+
+For quickly copying the dependency, you can use the following command:
+
+```kotlin
+implementation("io.github.heyysudarshan:julie:1.0.0")
 ```
 
 #### For Compose Multiplatform project
