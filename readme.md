@@ -5,11 +5,13 @@ Julie is a component library and design system developed for
 to design beautiful, consistent, and accessible user interfaces across various platforms.
 
 Designed for `Compose Multiplatform`, Julie works seamlessly across `Android`, `Desktop`, `Web`, and
-`iOS` with a shared codebase using 
+`iOS` with a shared codebase using
 [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/).
 
 It offers a wide range of UI components, such as `buttons`, `text fields`, `cards`, and pretty much
-everything you need to create a beautiful and rich user interface for your products.
+everything you need to create a beautiful and rich user interface for your products. See
+[Components]((http://heyysudarshan.github.io/julie/components) for a list of all available
+components in Julie.
 
 Note: Julie does not support `XML`, `SwiftUI`, or any other toolkits. It is primarily designed for
 `Compose Multiplatform`. However, you can use Julie in your regular `Jetpack Compose` projects
