@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #000000;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--primary-color);
+    scroll-behavior: smooth;
+}
+
+.main-app {
+    height: 100%;
+}
