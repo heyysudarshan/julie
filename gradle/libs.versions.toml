@@ -6,7 +6,7 @@ composeMultiplatform = "1.8.2"
 
 # Design sytem module information
 designSystem-group = "julie.design.system"
-designSystem-version = "1.0.0-alpha"
+designSystem-version = "1.0.0"
 designSystem-namespace = "julie.design.system"
 designSystem-compileSdk = "36"
 
