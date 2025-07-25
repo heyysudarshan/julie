@@ -1,0 +1,21 @@
+{
+    "name": "julie-react",
+    "version": "1.0.0-alpha",
+    "private": false,
+    "scripts": {},
+    "devDependencies": {
+        "vite": "^7.0.6"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0 || ^19.0.0",
+        "react-dom": "^18.0.0 || ^19.0.0"
+    },
+    "author": "Sudarshan Mhasrup",
+    "description": "React.js version of the Julie component library.",
+    "keywords": [
+        "Design System",
+        "Component Library",
+        "UI Library",
+        "Animation Library"
+    ]
+}
