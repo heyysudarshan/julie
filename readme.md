@@ -18,7 +18,7 @@ but also explains the design thinking behind it.
 
 To get started, add the Julie library to your existing Gradle project. To include Julie in any
 module, copy and paste the following line into your module's `build.gradle.kts` file under the
-dependencies block as shown below.
+`dependencies` block as shown below.
 
 #### For Android projects
 
