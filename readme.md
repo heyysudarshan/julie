@@ -32,7 +32,7 @@ covers important topics on how to build user-centric applications.
 
 To get started, add the Julie dependency to your existing `Gradle` project. To make Julie available
 in any module's classpath, copy and paste the following line into your module's `build.gradle.kts`
-file under the dependencies block as shown below.
+file under the `dependencies` block as shown below.
 
 #### For Android projects
 
