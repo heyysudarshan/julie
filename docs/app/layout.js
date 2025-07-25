@@ -1,13 +1,14 @@
-import website from "./WebInfo";
 
-import "/styles/Global.css";
+
+import "../styles/Global.css";
+import webInfo from "./WebInfo";
 
 export const metadata = {
-    title: website.title,
-    description: website.description,
+    title: webInfo.title,
+    description: webInfo.description,
 }
 
-const NextApp = ({children}) => {
+export default function RootLayout({children}) {
     return (
         <html lang="en">
             <body>
@@ -17,6 +18,4 @@ const NextApp = ({children}) => {
             </body>
         </html>
     );
-};
-
-export default NextApp;
+}
