@@ -34,7 +34,7 @@ To get started, add the Julie dependency to your existing `Gradle` project. To m
 in any module's classpath, copy and paste the following line into your module's `build.gradle.kts`
 file under the `dependencies` block as shown below.
 
-#### For Android projects
+#### For Android project
 
 ```groovy
 dependencies {
@@ -43,7 +43,7 @@ dependencies {
 }
 ```
 
-#### For Compose Multiplatform projects
+#### For Compose Multiplatform project
 
 ```kotlin
 kotlin {
