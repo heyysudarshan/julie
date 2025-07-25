@@ -5,7 +5,7 @@ import androidx.compose.ui.text.TextStyle
 
 @Immutable
 data class Typography(
-    // Display type
+    // tT
     val displayLarge: TextStyle = TextStyle(),
     val displayMedium: TextStyle = TextStyle(),
     val displaySmall: TextStyle = TextStyle(),
@@ -25,8 +25,21 @@ data class Typography(
     val labelMedium: TextStyle = TextStyle(),
     val labelSmall: TextStyle = TextStyle(),
 
-    // Body type
-    val bodyLarge: TextStyle = TextStyle(),
-    val bodyMedium: TextStyle = TextStyle(),
-    val bodySmall: TextStyle = TextStyle()
+    // Type: Body Large
+    val bodyLargeRegular: TextStyle = TextStyle(),
+    val bodyLargeMedium: TextStyle = TextStyle(),
+    val bodyLargeSemiBold: TextStyle = TextStyle(),
+    val bodyLargeBold: TextStyle = TextStyle(),
+
+    // Type: Body Medium
+    val bodyMediumRegular: TextStyle = TextStyle(),
+    val bodyMediumMedium: TextStyle = TextStyle(),
+    val bodyMediumSemiBold: TextStyle = TextStyle(),
+    val bodyMediumBold: TextStyle = TextStyle(),
+
+    // Type: Body Small
+    val bodySmallRegular: TextStyle = TextStyle(),
+    val bodySmallMedium: TextStyle = TextStyle(),
+    val bodySmallSemiBold: TextStyle = TextStyle(),
+    val bodySmallBold: TextStyle = TextStyle()
 )
