@@ -34,3 +34,4 @@ dependencyResolutionManagement {
 }
 
 include(":design-system")
+include(":julie-preview")
