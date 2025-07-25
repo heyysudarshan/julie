@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.activity.compose)
 }
 
 // Custom build directory
