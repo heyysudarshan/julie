@@ -6,7 +6,7 @@ fields`, and `cards`, so you can focus on your app’s functionality while Julie
 
 Designed for `Compose Multiplatform`, Julie works seamlessly across `Android`, `desktop`, `web`, and
 `iOS` with a shared codebase using `Compose Multiplatform`. It's also available for web projects
-using `React`, bringing the same concept on web as well.
+using `React`.
 
 ### Learning guide
 
