@@ -119,7 +119,9 @@ implementation(libs.julie)
 
 ### For React projects
 
-```kotlin
+If you're using React, you can install the library using the following command:
+
+```shell
 npm i julie - react
 ```
 
