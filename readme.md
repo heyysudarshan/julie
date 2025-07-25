@@ -79,6 +79,12 @@ kotlin {
 }  
 ```
 
+### For web projects
+
+```kotlin
+npm i julie-react
+```
+
 ### Why Julie?
 
 With so many component libraries out there, it’s fair to ask, why build another one? Android
