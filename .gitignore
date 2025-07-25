@@ -16,5 +16,8 @@ docs/.idea
 julie-react/node_modules
 docs/node_modules
 
+# Next JS cache folder
+docs/.next
+
 # Local properties
 local.properties
