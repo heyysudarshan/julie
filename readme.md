@@ -13,7 +13,7 @@ everything you need to create a beautiful and rich user interface for your produ
 [Components](http://heyysudarshan.github.io/julie/components) for a list of all available
 components in Julie.
 
-Note: Julie does not support `XML`, `SwiftUI`, or any other toolkits. It is primarily designed for
+***Note***: Julie does not support `XML`, `SwiftUI`, or any other toolkits. It is primarily designed for
 `Compose Multiplatform`. However, you can use Julie in your regular `Jetpack Compose` projects
 without any issues. Julie offers support for `React JS` on the web; however, this support is limited
 and is not the library's main focus.
