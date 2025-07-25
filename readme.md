@@ -79,6 +79,17 @@ kotlin {
 }  
 ```
 
+### Why Julie?
+
+With so many component libraries out there, it’s fair to ask, why build another one? Android
+developers often rely on Google’s `Material 3`, while web developers use libraries like `Shadcn` or
+`TailwindCSS`. But these are mostly platform-specific. Even though `Material 3` supports
+`Compose Multiplatform`, I found it lacking the visual appeal and smooth experience I was aiming
+for. That said, its design guidelines are still highly valuable. That’s why I set out to build this
+component library and design system. While it takes inspiration from Material 3’s typography and
+principles, it introduces visually appealing and thoughtfully crafted components from the start. The
+goal is to maintain a cohesive visual style and user experience across all platforms.
+
 ### Thank you 🙌
 
 Thank you for checking out this project! What started as a personal project is now evolving into
