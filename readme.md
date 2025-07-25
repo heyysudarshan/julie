@@ -10,7 +10,7 @@ Designed for `Compose Multiplatform`, Julie works seamlessly across `Android`, `
 
 It offers a wide range of UI components, such as `buttons`, `text fields`, `cards`, and pretty much
 everything you need to create a beautiful and rich user interface for your products. See
-[Components]((http://heyysudarshan.github.io/julie/components) for a list of all available
+[Components](http://heyysudarshan.github.io/julie/components) for a list of all available
 components in Julie.
 
 Note: Julie does not support `XML`, `SwiftUI`, or any other toolkits. It is primarily designed for
