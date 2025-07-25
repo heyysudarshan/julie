@@ -1,0 +1,15 @@
+{
+    "name": "julie-docs",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev"
+    },
+    "dependencies": {
+        "next": "^15.4.4",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "author": "Sudarshan Mhasrup",
+    "description": "Documentation site for Julie."
+}
