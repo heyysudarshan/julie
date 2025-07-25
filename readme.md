@@ -5,7 +5,8 @@ Julie is a component library and design system developed for
 to design beautiful, consistent, and accessible user interfaces across various platforms.
 
 Designed for `Compose Multiplatform`, Julie works seamlessly across `Android`, `Desktop`, `Web`, and
-`iOS` with a shared codebase using Kotlin Multiplatform.
+`iOS` with a shared codebase using 
+[Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/).
 
 It offers a wide range of UI components, such as `buttons`, `text fields`, `cards`, and pretty much
 everything you need to create a beautiful and rich user interface for your products.
