@@ -25,7 +25,7 @@ module, copy and paste the following line into your module's `build.gradle.kts` 
 ```groovy
 dependencies {
     // Other dependencies will go here
-    implementation("io.github.heyysudarshan:julie:1.0.0-alpha")
+    implementation("io.github.heyysudarshan:julie:1.0.0")
 }
 ```
 
@@ -36,7 +36,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             // Other dependencies will go here
-            implementation("io.github.heyysudarshan:julie:1.0.0-alpha")
+            implementation("io.github.heyysudarshan:julie:1.0.0")
         }
     }
 }  
@@ -48,7 +48,7 @@ to your `libs.versions.toml` file:
 ```
 [versions]
 # Other version declarations will go here
-julie = "1.0.0-alpha"
+julie = "1.0.0"
 
 [libraries]
 # Other libraries declarations will go here
