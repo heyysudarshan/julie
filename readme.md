@@ -25,7 +25,7 @@ components in Julie.
 
 ### Learning guide
 
-If you're new to `Julie`, then don't worry; check out the
+If you're new to Julie, then don't worry; check out the
 [Julie learning guide](http://heyysudarshan.github.io/julie/learn-julie) to learn how to use Julie
 effectively in your project. The guide not only teaches you how to use each component but also
 explains the design thinking behind it. Also, if you're new to the world of `UI/UX`, the guide also
