@@ -1,4 +1,4 @@
-<img src="/assets/compose-multiplatform-tag.png" alt="Julie logo""/>
+<img src="https://github.com/heyysudarshan/julie/blob/main/assets/compose-multiplatform-tag.png" alt="Julie logo""/>
 
 ### About Julie
 
