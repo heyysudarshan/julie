@@ -3,7 +3,7 @@
 
 ### About Julie
 
-`Julie` is a component library and design system developed for
+Julie is a component library and design system developed for
 [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform). It empowers developers
 to design beautiful, consistent, and accessible user interfaces across various platforms.
 
@@ -26,7 +26,7 @@ components in Julie.
 ### Learning guide
 
 If you're new to `Julie`, then don't worry; check out the
-[Julie learning guide](http://heyysudarshan.github.io/julie/learn-julie) to learn how to use `Julie`
+[Julie learning guide](http://heyysudarshan.github.io/julie/learn-julie) to learn how to use Julie
 effectively in your project. The guide not only teaches you how to use each component but also
 explains the design thinking behind it. Also, if you're new to the world of `UI/UX`, the guide also
 covers important topics on how to build user-centric applications.
