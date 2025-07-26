@@ -28,4 +28,16 @@ data class Typography(
     val displayLargeMedium: TextStyle = displayLargeRegular.copy(fontWeight = FontWeight.Medium),
     val displayLargeSemiBold: TextStyle = displayLargeRegular.copy(fontWeight = FontWeight.SemiBold),
     val displayLargeBold: TextStyle = displayLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Display medium
+    val displayMediumRegular: TextStyle = TextStyle(),
+    val displayMediumMedium: TextStyle = displayMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val displayMediumSemiBold: TextStyle = displayMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val displayMediumBold: TextStyle = displayMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Display small
+    val displaySmallRegular: TextStyle = TextStyle(),
+    val displaySmallMedium: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.Medium),
+    val displaySmallSemiBold: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val displaySmallBold: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.Bold),
 )
