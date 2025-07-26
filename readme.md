@@ -134,9 +134,9 @@ If you're willing to contribute or are curious about how the source code of this
 structured, this section is for you. The project is divided into multiple modules to make it easier
 to organize, especially for scalable projects.
 
-- `design-system`: This module contains the design system, which is the foundation of the library.
-  It contains the `typography`, `color scheme`, and `spacing system`. It's `Kotlin Multiplatform`
-  library module.
+- `design-system`: This is a `Kotlin Multiplatform` library module that contains the design system,
+  which forms the foundation of the library. It includes typography, color schemes, and the spacing
+  system.
 
 ### Why Julie?
 
