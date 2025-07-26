@@ -130,12 +130,12 @@ npm i julie-react
 
 ### Understanding the project structure
 
-If you're willing to contribute or are curious about how the library's source code is structured,
-this section is for you. The project is divided into multiple modules to make it easier to organize,
-especially for scalable projects.
+If you're willing to contribute or are curious about how the source code of this project is
+structured, this section is for you. The project is divided into multiple modules to make it easier
+to organize, especially for scalable projects.
 
 - `design-system`: This module contains the design system, which is the foundation of the library.
-  It contains the typography, color, and spacing system.
+  It contains the typography, color, and spacing system. It's `Kotlin Multiplatform` library module.
 
 ### Why Julie?
 
