@@ -40,4 +40,76 @@ data class Typography(
     val displaySmallMedium: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.Medium),
     val displaySmallSemiBold: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.SemiBold),
     val displaySmallBold: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Headline large
+    val headlineLargeRegular: TextStyle = TextStyle(),
+    val headlineLargeMedium: TextStyle = headlineLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val headlineLargeSemiBold: TextStyle = headlineLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val headlineLargeBold: TextStyle = headlineLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Headline medium
+    val headlineMediumRegular: TextStyle = TextStyle(),
+    val headlineMediumMedium: TextStyle = headlineMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val headlineMediumSemiBold: TextStyle = headlineMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val headlineMediumBold: TextStyle = headlineMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Headline small
+    val headlineSmallRegular: TextStyle = TextStyle(),
+    val headlineSmallMedium: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.Medium),
+    val headlineSmallSemiBold: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val headlineSmallBold: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Title large
+    val titleLargeRegular: TextStyle = TextStyle(),
+    val titleLargeMedium: TextStyle = titleLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val titleLargeSemiBold: TextStyle = titleLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val titleLargeBold: TextStyle = titleLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Title medium
+    val titleMediumRegular: TextStyle = TextStyle(),
+    val titleMediumMedium: TextStyle = titleMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val titleMediumSemiBold: TextStyle = titleMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val titleMediumBold: TextStyle = titleMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Title small
+    val titleSmallRegular: TextStyle = TextStyle(),
+    val titleSmallMedium: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.Medium),
+    val titleSmallSemiBold: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val titleSmallBold: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Label large
+    val labelLargeRegular: TextStyle = TextStyle(),
+    val labelLargeMedium: TextStyle = labelLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val labelLargeSemiBold: TextStyle = labelLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val labelLargeBold: TextStyle = labelLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Label medium
+    val labelMediumRegular: TextStyle = TextStyle(),
+    val labelMediumMedium: TextStyle = labelMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val labelMediumSemiBold: TextStyle = labelMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val labelMediumBold: TextStyle = labelMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Label small
+    val labelSmallRegular: TextStyle = TextStyle(),
+    val labelSmallMedium: TextStyle = labelSmallRegular.copy(fontWeight = FontWeight.Medium),
+    val labelSmallSemiBold: TextStyle = labelSmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val labelSmallBold: TextStyle = labelSmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Body large
+    val bodyLargeRegular: TextStyle = TextStyle(),
+    val bodyLargeMedium: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val bodyLargeSemiBold: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val bodyLargeBold: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Body medium
+    val bodyMediumRegular: TextStyle = TextStyle(),
+    val bodyMediumMedium: TextStyle = bodyMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val bodyMediumSemiBold: TextStyle = bodyMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val bodyMediumBold: TextStyle = bodyMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Body small
+    val bodySmallRegular: TextStyle = TextStyle(),
+    val bodySmallMedium: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Medium),
+    val bodySmallSemiBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val bodySmallBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Bold),
 )
