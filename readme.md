@@ -1,4 +1,4 @@
-![Logo](https://github.com/heyysudarshan/julie/blob/main/assets/compose-multiplatform-tag.png)
+![Logo](https://github.com/heyysudarshan/julie/blob/main/assets/compose-multiplatform-tag.svg)
 ### About Julie
 
 Julie is a component library and design system developed for
