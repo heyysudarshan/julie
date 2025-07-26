@@ -1,5 +1,6 @@
 ![Developed for Compose Multiplatform Logo](https://github.com/heyysudarshan/julie/blob/main/assets/compose-multiplatform-tag.svg)
 ![Release tag](https://github.com/heyysudarshan/julie/blob/main/assets/release-tag.svg)
+![Android release tag](https://github.com/heyysudarshan/julie/blob/main/assets/android-tag.svg)
 
 ### About Julie
 
