@@ -128,6 +128,15 @@ If you're using React, you can install the library using the following command:
 npm i julie-react
 ```
 
+### Understanding the project structure
+
+If you're willing to contribute or are curious about how the library's source code is structured,
+this section is for you. The project is divided into multiple modules to make it easier to organize,
+especially for scalable projects.
+
+- `design-system`: This module contains the design system, which is the foundation of the library.
+  It contains the typography, color, and spacing system.
+
 ### Why Julie?
 
 With so many component libraries out there, it’s fair to ask, why build another one? Android
