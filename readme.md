@@ -1,3 +1,5 @@
+<img src="/assets/compose-multiplatform-tag.png" alt="Julie logo""/>
+
 ### About Julie
 
 Julie is a component library and design system developed for
