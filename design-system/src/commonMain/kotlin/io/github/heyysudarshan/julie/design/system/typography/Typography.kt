@@ -56,4 +56,37 @@ data class Typography(
     val displaySmallMedium: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.Medium),
     val displaySmallSemiBold: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.SemiBold),
     val displaySmallBold: TextStyle = displaySmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Headline large
+    val headlineLargeRegular: TextStyle = TextStyle(
+        fontSize = 32.sp,
+        lineHeight = 48.sp,
+        letterSpacing = 0.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val headlineLargeMedium: TextStyle = headlineLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val headlineLargeSemiBold: TextStyle = headlineLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val headlineLargeBold: TextStyle = headlineLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Headline medium
+    val headlineMediumRegular: TextStyle = TextStyle(
+        fontSize = 28.sp,
+        lineHeight = 44.sp,
+        letterSpacing = 0.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val headlineMediumMedium: TextStyle = headlineMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val headlineMediumSemiBold: TextStyle = headlineMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val headlineMediumBold: TextStyle = headlineMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Headline small
+    val headlineSmallRegular: TextStyle = TextStyle(
+        fontSize = 24.sp,
+        lineHeight = 36.sp,
+        letterSpacing = 0.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val headlineSmallMedium: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.Medium),
+    val headlineSmallSemiBold: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val headlineSmallBold: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.Bold),
 )
