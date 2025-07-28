@@ -131,7 +131,11 @@ npm i julie-react
 
 ### Contributing
 
-// Yet to be added
+If you like this project and want to extend it for your use case, then consider contributing to
+Julie. See [Contributing](http://heyysudarshan.github.io/julie/contribute) to learn how you can
+contribute to this project. You can also choose to fork this project repository and make any changes
+you want while keeping those changes private; however, this approach won't contribute to the
+project's growth.
 
 ### Understanding the project structure
 
