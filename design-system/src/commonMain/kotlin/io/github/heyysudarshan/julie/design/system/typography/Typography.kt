@@ -127,7 +127,7 @@ data class Typography(
     val bodyLargeRegular: TextStyle = TextStyle(
         fontSize = 15.sp,
         lineHeight = 32.sp,
-        letterSpacing = 0.5.sp,
+        letterSpacing = 0.25.sp,
         fontWeight = FontWeight.Normal,
     ),
     val bodyLargeMedium: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.Medium),
@@ -137,7 +137,7 @@ data class Typography(
     // Type: Body medium
     val bodyMediumRegular: TextStyle = TextStyle(
         fontSize = 14.sp,
-        lineHeight = 28.sp,
+        lineHeight = 30.sp,
         letterSpacing = 0.25.sp,
         fontWeight = FontWeight.Normal,
     ),
@@ -148,11 +148,11 @@ data class Typography(
     // Type: Body small
     val bodySmallRegular: TextStyle = TextStyle(
         fontSize = 12.sp,
-        lineHeight = 20.sp,
-        letterSpacing = 0.4.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.25.sp,
         fontWeight = FontWeight.Normal,
     ),
     val bodySmallMedium: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Medium),
     val bodySmallSemiBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.SemiBold),
-    val bodySmallBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Bold),
+    val bodySmallBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Bold)
 )
