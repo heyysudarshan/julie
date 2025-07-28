@@ -137,6 +137,9 @@ contribute to this project. You can also choose to fork this project repository 
 you want while keeping those changes private; however, this approach won't contribute to the
 project's growth.
 
+Contributing to Julie will help other developers benefit from the changes you made and help Julie
+grow beyond another `open-source` project on `GitHub`.
+
 ### Understanding the project structure
 
 If you're willing to contribute or are curious about how the source code of this project is
