@@ -89,4 +89,37 @@ data class Typography(
     val headlineSmallMedium: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.Medium),
     val headlineSmallSemiBold: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.SemiBold),
     val headlineSmallBold: TextStyle = headlineSmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Title large
+    val titleLargeRegular: TextStyle = TextStyle(
+        fontSize = 22.sp,
+        lineHeight = 36.sp,
+        letterSpacing = 0.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val titleLargeMedium: TextStyle = titleLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val titleLargeSemiBold: TextStyle = titleLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val titleLargeBold: TextStyle = titleLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Title medium
+    val titleMediumRegular: TextStyle = TextStyle(
+        fontSize = 16.sp,
+        lineHeight = 30.sp,
+        letterSpacing = 0.15.sp,
+        fontWeight = FontWeight.Medium,
+    ),
+    val titleMediumMedium: TextStyle = titleMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val titleMediumSemiBold: TextStyle = titleMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val titleMediumBold: TextStyle = titleMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Title small
+    val titleSmallRegular: TextStyle = TextStyle(
+        fontSize = 14.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.1.sp,
+        fontWeight = FontWeight.Medium,
+    ),
+    val titleSmallMedium: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.Medium),
+    val titleSmallSemiBold: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val titleSmallBold: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.Bold),
 )
