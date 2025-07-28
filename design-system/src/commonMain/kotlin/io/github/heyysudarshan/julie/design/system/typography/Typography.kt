@@ -122,4 +122,37 @@ data class Typography(
     val titleSmallMedium: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.Medium),
     val titleSmallSemiBold: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.SemiBold),
     val titleSmallBold: TextStyle = titleSmallRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Body large
+    val bodyLargeRegular: TextStyle = TextStyle(
+        fontSize = 15.sp,
+        lineHeight = 32.sp,
+        letterSpacing = 0.5.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val bodyLargeMedium: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.Medium),
+    val bodyLargeSemiBold: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.SemiBold),
+    val bodyLargeBold: TextStyle = bodyLargeRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Body medium
+    val bodyMediumRegular: TextStyle = TextStyle(
+        fontSize = 14.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.25.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val bodyMediumMedium: TextStyle = bodyMediumRegular.copy(fontWeight = FontWeight.Medium),
+    val bodyMediumSemiBold: TextStyle = bodyMediumRegular.copy(fontWeight = FontWeight.SemiBold),
+    val bodyMediumBold: TextStyle = bodyMediumRegular.copy(fontWeight = FontWeight.Bold),
+
+    // Type: Body small
+    val bodySmallRegular: TextStyle = TextStyle(
+        fontSize = 12.sp,
+        lineHeight = 20.sp,
+        letterSpacing = 0.4.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    val bodySmallMedium: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Medium),
+    val bodySmallSemiBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.SemiBold),
+    val bodySmallBold: TextStyle = bodySmallRegular.copy(fontWeight = FontWeight.Bold),
 )
