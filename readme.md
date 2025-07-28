@@ -154,6 +154,7 @@ experience across all platforms.
 
 ### Thank you 🙌
 
-Thank you for checking out this project! What started as a personal project is now evolving into
-something more meaningful. If you're a designer with suggestions, I'd love to hear them. Please
-think about giving the GitHub repository a star if you value the work. Happy coding!
+Thank you so much for checking out the Julie project. I started it as a personal project, but soon I
+realized it could help others too. So, I decided to open-source it so it can grow beyond what it is
+today. If you like my work or this project, feel free to give a star to the repository. Happy
+coding! 
