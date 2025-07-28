@@ -19,7 +19,7 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            implementation(libs.compose.multiplaform.ui)
+            implementation(libs.compose.multiplatform.ui)
         }
     }
 }
