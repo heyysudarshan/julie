@@ -55,19 +55,19 @@
 .body-large {
     font-size: 15px;
     line-height: 32px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.25px;
 }
 
 .body-medium {
     font-size: 14px;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: 0.25px;
 }
 
 .body-small {
     font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
 }
 
 .regular {
