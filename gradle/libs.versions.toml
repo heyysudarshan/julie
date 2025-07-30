@@ -6,6 +6,15 @@ activityCompose = "1.10.1"
 coreSplashscreen = "1.0.1"
 composeMultiplatform = "1.8.2"
 
+# library module android library package information
+library-androidLibrary-namespace = "io.github.heyysudarshan.julie"
+library-androidLibrary-compileSdk = "36"
+library-androidLibrary-minSdk = "21"
+
+# library module configuration information
+library-group = "io.github.heyysudarshan.julie"
+library-version = "1.0.0"
+
 # design-system module android library package information
 designSystem-androidLibrary-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-androidLibrary-compileSdk = "36"
