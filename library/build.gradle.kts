@@ -10,7 +10,9 @@ group = libs.versions.library.group.get()
 version = libs.versions.library.version.get()
 
 kotlin {
-    androidTarget()
+    androidTarget {
+        publishLibraryVariants("release")
+    }
 
     jvm("desktop")
 
