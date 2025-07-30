@@ -1,4 +1,5 @@
 plugins {
+    alias(libs.plugins.maven.publish)
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.android.library)
     alias(libs.plugins.compose.multiplatform)
@@ -20,6 +21,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(libs.compose.multiplatform.ui)
+            api(projects.designSystem)
         }
     }
 }
