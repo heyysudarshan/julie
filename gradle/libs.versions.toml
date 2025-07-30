@@ -11,7 +11,7 @@ designSystem-androidLibrary-namespace = "io.github.heyysudarshan.julie.design.sy
 designSystem-androidLibrary-compileSdk = "36"
 designSystem-androidLibrary-minSdk = "21"
 
-# "design-system" module configuration information
+# design-system module configuration information
 designSystem-group = "io.github.heyysudarshan.julie.design.system"
 designSystem-version = "1.0.0"
 
