@@ -25,8 +25,12 @@ kotlin {
 }
 
 android {
-    namespace = libs.versions.designSystem.namespace.get()
-    compileSdk = libs.versions.designSystem.compileSdk.get().toInt()
+    namespace = libs.versions.designSystem.androidLibrary.namespace.get()
+    compileSdk = libs.versions.designSystem.androidLibrary.compileSdk.get().toInt()
+
+    defaultConfig {
+        minSdk = libs.versions.designSystem.androidLibrary.minSdk.get().toInt()
+    }
 }
 
 // Custom build directory
