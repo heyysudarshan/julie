@@ -16,6 +16,11 @@ library-androidLibrary-minSdk = "21"
 library-group = "io.github.heyysudarshan.julie"
 library-version = "1.0.0"
 
+# Julie library publishing information
+julie-groupId = "io.github.heyysudarshan"
+julie-artifactId = "julie"
+julie-version = "1.0.0-alpha1"
+
 # design-system module android library package information
 designSystem-androidLibrary-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-androidLibrary-compileSdk = "36"
