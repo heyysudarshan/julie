@@ -75,6 +75,3 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 }
-
-// Custom build directory
-layout.buildDirectory.set(file(path = "$rootDir/.build/library"))
