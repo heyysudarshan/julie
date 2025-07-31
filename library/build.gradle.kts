@@ -74,10 +74,6 @@ mavenPublishing {
 
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
-
-    repositories {
-        mavenCentral()
-    }
 }
 
 // Custom build directory
