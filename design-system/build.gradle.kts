@@ -38,9 +38,9 @@ android {
 
 mavenPublishing {
     coordinates(
-        groupId = libs.versions.library.group.get(),
-        artifactId = libs.versions.library.artifactId.get(),
-        version = libs.versions.library.version.get()
+        groupId = libs.versions.designSystem.group.get(),
+        artifactId = libs.versions.designSystem.artifactId.get(),
+        version = libs.versions.designSystem.version.get()
     )
 
     pom {
@@ -72,6 +72,3 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 }
-
-// Custom build directory
-layout.buildDirectory.set(file(path = "$rootDir/.build/designSystem"))
