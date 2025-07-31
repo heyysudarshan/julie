@@ -1,9 +1,16 @@
 rootProject.name = "Julie"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
+@Suppress("UnstableApiUsage")
 pluginManagement {
     repositories {
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -16,7 +23,13 @@ plugins {
 @Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
     repositories {
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
     }
 }
