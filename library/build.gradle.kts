@@ -48,7 +48,7 @@ mavenPublishing {
 
     pom {
         name.set("Julie Component Library")
-        description.set("Julie Compose Components library ")
+        description.set("Julie Components library for Compose")
         inceptionYear.set("2025")
         url = "https://github.com/heyysudarshan/julie"
         licenses {
