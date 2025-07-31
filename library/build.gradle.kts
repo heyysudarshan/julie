@@ -37,33 +37,38 @@ android {
     }
 }
 
-publishing {
-    publications.withType<MavenPublication>().configureEach {
-        pom {
-            name.set("Compose Julie Component Library and Design System")
-            inceptionYear.set("2025")
-            url = "https://github.com/heyysudarshan/julie"
-            licenses {
-                license {
-                    name.set("The Apache License, Version 2.0")
-                    url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
-                    distribution.set("repo")
-                }
-            }
-            developers {
-                developer {
-                    id.set("heyysudarshan")
-                    name.set("Sudarshan")
-                    url.set("https://github.com/heyysudarshan")
-                }
-            }
-            scm {
-                url.set("https://github.com/heyysudarshan/julie")
-                connection.set("scm:git:https://github.com/heyysudarshan/julie.git")
-                developerConnection.set("scm:git:ssh://git@github.com/heyysudarshan/julie.git")
+mavenPublishing {
+    coordinates(
+        groupId = libs.versions.julie.groupId.get(),
+        artifactId = libs.versions.julie.artifactId.get(),
+        version = libs.versions.julie.version.get()
+    )
+
+    pom {
+        name.set("Compose Julie Component Library and Design System")
+        inceptionYear.set("2025")
+        url = "https://github.com/heyysudarshan/julie"
+        licenses {
+            license {
+                name.set("The Apache License, Version 2.0")
+                url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
+                distribution.set("repo")
             }
         }
+        developers {
+            developer {
+                id.set("heyysudarshan")
+                name.set("Sudarshan")
+                url.set("https://github.com/heyysudarshan")
+            }
+        }
+        scm {
+            url.set("https://github.com/heyysudarshan/julie")
+            connection.set("scm:git:https://github.com/heyysudarshan/julie.git")
+            developerConnection.set("scm:git:ssh://git@github.com/heyysudarshan/julie.git")
+        }
     }
+
     repositories {
         mavenCentral()
     }
