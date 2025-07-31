@@ -1,3 +1,5 @@
+import com.vanniktech.maven.publish.SonatypeHost
+
 plugins {
     alias(libs.plugins.maven.publish)
     alias(libs.plugins.kotlin.multiplatform)
@@ -46,6 +48,7 @@ mavenPublishing {
 
     pom {
         name.set("Compose Julie Component Library and Design System")
+        description.set("A component library and design system developed to make your app look & feel beautiful and consistent across all platforms. ")
         inceptionYear.set("2025")
         url = "https://github.com/heyysudarshan/julie"
         licenses {
@@ -68,6 +71,9 @@ mavenPublishing {
             developerConnection.set("scm:git:ssh://git@github.com/heyysudarshan/julie.git")
         }
     }
+
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+    signAllPublications()
 
     repositories {
         mavenCentral()
