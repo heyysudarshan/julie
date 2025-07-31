@@ -1,4 +1,7 @@
+import com.vanniktech.maven.publish.SonatypeHost
+
 plugins {
+    alias(libs.plugins.maven.publish)
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.android.library)
     alias(libs.plugins.compose.multiplatform)
@@ -31,6 +34,43 @@ android {
     defaultConfig {
         minSdk = libs.versions.designSystem.androidLibrary.minSdk.get().toInt()
     }
+}
+
+mavenPublishing {
+    coordinates(
+        groupId = libs.versions.library.group.get(),
+        artifactId = libs.versions.library.artifactId.get(),
+        version = libs.versions.library.version.get()
+    )
+
+    pom {
+        name.set("Julie Design System")
+        description.set("Design System for Julie")
+        inceptionYear.set("2025")
+        url = "https://github.com/heyysudarshan/julie"
+        licenses {
+            license {
+                name.set("The Apache License, Version 2.0")
+                url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
+                distribution.set("repo")
+            }
+        }
+        developers {
+            developer {
+                id.set("heyysudarshan")
+                name.set("Sudarshan")
+                url.set("https://github.com/heyysudarshan")
+            }
+        }
+        scm {
+            url.set("https://github.com/heyysudarshan/julie")
+            connection.set("scm:git:https://github.com/heyysudarshan/julie.git")
+            developerConnection.set("scm:git:ssh://git@github.com/heyysudarshan/julie.git")
+        }
+    }
+
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+    signAllPublications()
 }
 
 // Custom build directory
