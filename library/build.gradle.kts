@@ -41,14 +41,14 @@ android {
 
 mavenPublishing {
     coordinates(
-        groupId = libs.versions.julie.groupId.get(),
-        artifactId = libs.versions.julie.artifactId.get(),
-        version = libs.versions.julie.version.get()
+        groupId = libs.versions.library.group.get(),
+        artifactId = libs.versions.library.artifactId.get(),
+        version = libs.versions.library.version.get()
     )
 
     pom {
-        name.set("Compose Julie Component Library and Design System")
-        description.set("A component library and design system developed to make your app look & feel beautiful and consistent across all platforms. ")
+        name.set("Julie Component Library")
+        description.set("Julie Compose Components library ")
         inceptionYear.set("2025")
         url = "https://github.com/heyysudarshan/julie"
         licenses {
