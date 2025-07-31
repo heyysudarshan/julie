@@ -14,8 +14,8 @@ library-androidLibrary-minSdk = "21"
 
 # library module configuration & publishing information
 library-group = "io.github.heyysudarshan.julie"
-julie-artifactId = "julie"
-library-version = "1.0.0-alpha2"
+library-artifactId = "julie"
+library-version = "1.0.0-alpha3"
 
 # design-system module android library package information
 designSystem-androidLibrary-namespace = "io.github.heyysudarshan.julie.design.system"
@@ -25,7 +25,7 @@ designSystem-androidLibrary-minSdk = "21"
 # design-system module configuration & publishing information
 designSystem-group = "io.github.heyysudarshan.julie"
 designSystem-artifactId = "design-system"
-designSystem-version = "1.0.0-alpha2"
+designSystem-version = "1.0.0-alpha3"
 
 # "julie-preview-android" module app package information
 juliePreviewAndroidApp-namespace = "julie.preview.android"
