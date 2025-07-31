@@ -25,7 +25,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(libs.compose.multiplatform.ui)
-            api(projects.designSystem)
+            api(libs.julie.design.system)
         }
     }
 }
