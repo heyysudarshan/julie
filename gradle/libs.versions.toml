@@ -1,6 +1,6 @@
 [versions]
 # Library and plugin versions
-mavenPublish = "0.34.0"
+mavenPublish = "0.28.0"
 kotlin = "2.2.0"
 agp = "8.11.1"
 activityCompose = "1.10.1"
@@ -12,23 +12,20 @@ library-androidLibrary-namespace = "io.github.heyysudarshan.julie"
 library-androidLibrary-compileSdk = "36"
 library-androidLibrary-minSdk = "21"
 
-# library module configuration information
+# library module configuration & publishing information
 library-group = "io.github.heyysudarshan.julie"
-library-version = "1.0.0"
-
-# Julie library publishing information
-julie-groupId = "io.github.heyysudarshan"
 julie-artifactId = "julie"
-julie-version = "1.0.0-alpha1"
+library-version = "1.0.0-alpha2"
 
 # design-system module android library package information
 designSystem-androidLibrary-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-androidLibrary-compileSdk = "36"
 designSystem-androidLibrary-minSdk = "21"
 
-# design-system module configuration information
-designSystem-group = "io.github.heyysudarshan.julie.design.system"
-designSystem-version = "1.0.0"
+# design-system module configuration & publishing information
+designSystem-group = "io.github.heyysudarshan.julie"
+designSystem-artifactId = "design-system"
+designSystem-version = "1.0.0-alpha2"
 
 # "julie-preview-android" module app package information
 juliePreviewAndroidApp-namespace = "julie.preview.android"
