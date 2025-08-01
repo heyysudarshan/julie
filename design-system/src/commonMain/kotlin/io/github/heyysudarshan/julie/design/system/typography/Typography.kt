@@ -5,23 +5,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-/**
- **
- * *Typography* class for the Julie Design System.
- *
- * This class contains all the text styles provided by the Julie design system.
- * You can use these styles in your application without any modifications,
- * as all properties follow the specifications defined by the Julie design system by default.
- *
- * Each text style is available in the following weights:
- * 1. Normal
- * 2. Medium
- * 3. SemiBold
- * 4. Bold
- *
- * To learn more about the Julie Typography, see
- * [Typography](http://heyysudarshan.github.io/julie/design-system/typography).
- */
 @Immutable
 data class Typography(
     // Type: Display large
