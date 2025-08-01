@@ -37,4 +37,5 @@ dependencyResolutionManagement {
 include(":library")
 include(":design-system")
 include(":julie-preview-android")
+include(":julie-preview-desktop")
 include(":julie-preview")
