@@ -33,8 +33,8 @@ kotlin {
 }
 
 android {
-    namespace = libs.versions.juliePreview.namespace.get()
-    compileSdk = libs.versions.juliePreview.compileSdk.get().toInt()
+    namespace = libs.versions.juliePreview.androidLibrary.namespace.get()
+    compileSdk = libs.versions.juliePreview.androidLibrary.compileSdk.get().toInt()
 }
 
 // Custom build directory
