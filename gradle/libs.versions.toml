@@ -41,6 +41,10 @@ juliePreviewAndroidApp-versionName = "1.0.0"
 juliePreviewAndroid-group = "julie.preview.android"
 juliePreviewAndroid-version = "1.0.0"
 
+# julie-preview-desktop module's configuration information
+juliePreviewDesktop-group = "julie.preview.desktop"
+juliePreviewDesktop-version = "1.0.0"
+
 # julie-preview module's android library package information
 juliePreview-androidLibrary-namespace = "julie.preview.core"
 juliePreview-androidLibrary-compileSdk = "36"
