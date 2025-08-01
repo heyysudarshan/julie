@@ -8,27 +8,27 @@ coreSplashscreen = "1.0.1"
 composeMultiplatform = "1.8.2"
 julie = "1.0.0-alpha3"
 
-# library module android library package information
+# library module's android library package information
 library-androidLibrary-namespace = "io.github.heyysudarshan.julie"
 library-androidLibrary-compileSdk = "36"
 library-androidLibrary-minSdk = "21"
 
-# library module configuration & publishing information
+# library module's configuration & publishing information
 library-group = "io.github.heyysudarshan.julie"
 library-artifactId = "julie"
 library-version = "1.0.0-alpha3"
 
-# design-system module android library package information
+# design-system module's android library package information
 designSystem-androidLibrary-namespace = "io.github.heyysudarshan.julie.design.system"
 designSystem-androidLibrary-compileSdk = "36"
 designSystem-androidLibrary-minSdk = "21"
 
-# design-system module configuration & publishing information
+# design-system module's configuration & publishing information
 designSystem-group = "io.github.heyysudarshan.julie"
 designSystem-artifactId = "design-system"
 designSystem-version = "1.0.0-alpha3"
 
-# julie-preview-android module android app package information
+# julie-preview-android module's android app package information
 juliePreviewAndroidApp-namespace = "julie.preview.android"
 juliePreviewAndroidApp-compileSdk = "36"
 juliePreviewAndroidApp-applicationId = "julie.preview.android"
@@ -37,16 +37,16 @@ juliePreviewAndroidApp-minSdk = "21"
 juliePreviewAndroidApp-versionCode = "1"
 juliePreviewAndroidApp-versionName = "1.0.0"
 
-# julie-preview-android module configuration inforatiom
+# julie-preview-android module's configuration inforatiom
 juliePreviewAndroid-group = "julie.preview.android"
 juliePreviewAndroid-version = "1.0.0"
 
-# julie-preview module android library package information
+# julie-preview module's android library package information
 juliePreview-androidLibrary-namespace = "julie.preview.core"
 juliePreview-androidLibrary-compileSdk = "36"
 juliePreview-androidLibrary-minSdk = "21"
 
-# julie-preview module configuration information
+# julie-preview module's configuration information
 juliePreview-group = "julie.preview.core"
 juliePreview-version = "1.0.0"
 
