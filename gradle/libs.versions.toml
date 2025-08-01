@@ -28,24 +28,27 @@ designSystem-group = "io.github.heyysudarshan.julie"
 designSystem-artifactId = "design-system"
 designSystem-version = "1.0.0-alpha3"
 
-# "julie-preview-android" module app package information
+# julie-preview-android module android app package information
 juliePreviewAndroidApp-namespace = "julie.preview.android"
-juliePreviewAndroidApp-applicationId = "julie.preview.android"
 juliePreviewAndroidApp-compileSdk = "36"
+juliePreviewAndroidApp-applicationId = "julie.preview.android"
 juliePreviewAndroidApp-targetSdk = "36"
 juliePreviewAndroidApp-minSdk = "21"
 juliePreviewAndroidApp-versionCode = "1"
 juliePreviewAndroidApp-versionName = "1.0.0"
 
-# Julie preview android module  information
-juliePreviewAndroid-group = "io.github.heyysudarshan.julie.preview"
+# julie-preview-android module configuration inforatiom
+juliePreviewAndroid-group = "julie.preview.android"
 juliePreviewAndroid-version = "1.0.0"
 
-# Julie preview module information
-juliePreview-group = "io.github.heyysudarshan.julie.preview"
+# julie-preview module android library package information
+juliePreview-androidLibrary-namespace = "julie.preview.core"
+juliePreview-androidLibrary-compileSdk = "36"
+juliePreview-androidLibrary-minSdk = "21"
+
+# julie-preview module configuration information
+juliePreview-group = "julie.preview.core"
 juliePreview-version = "1.0.0"
-juliePreview-namespace = "io.github.heyysudarshan.julie.preview"
-juliePreview-compileSdk = "36"
 
 [libraries]
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
