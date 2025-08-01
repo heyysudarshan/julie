@@ -11,6 +11,8 @@ docs/.idea
 
 # Build output folder
 .build
+library/build
+design-system/build
 
 # Node modules
 julie-react/node_modules
