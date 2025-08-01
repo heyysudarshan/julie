@@ -9,6 +9,7 @@ version = libs.versions.juliePreviewDesktop.version.get()
 
 dependencies {
     implementation(compose.desktop.currentOs)
+    implementation(projects.juliePreview)
 }
 
 compose.desktop {
