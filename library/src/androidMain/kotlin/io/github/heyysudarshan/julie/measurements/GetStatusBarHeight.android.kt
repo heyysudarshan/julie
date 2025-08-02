@@ -1,4 +1,4 @@
-package julie.preview.core
+package io.github.heyysudarshan.julie.measurements
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
