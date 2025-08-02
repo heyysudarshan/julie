@@ -7,6 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.Dp
 
 @Composable
-internal actual fun getStatusBarHeight(): Dp {
+actual fun getStatusBarHeight(): Dp {
     return WindowInsets.statusBars.asPaddingValues().calculateTopPadding()
 }
