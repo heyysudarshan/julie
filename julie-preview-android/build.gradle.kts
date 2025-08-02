@@ -39,9 +39,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":julie-preview"))
     implementation(libs.core.splashscreen)
     implementation(libs.activity.compose)
+    implementation(projects.juliePreview)
 }
 
 // Custom build directory
