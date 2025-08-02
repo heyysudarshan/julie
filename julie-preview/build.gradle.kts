@@ -28,6 +28,7 @@ kotlin {
         commonMain.dependencies {
             implementation(libs.compose.multiplatform.ui)
             implementation(libs.compose.multiplatform.foundation)
+            implementation(projects.library)
         }
     }
 }
@@ -35,6 +36,10 @@ kotlin {
 android {
     namespace = libs.versions.juliePreview.androidLibrary.namespace.get()
     compileSdk = libs.versions.juliePreview.androidLibrary.compileSdk.get().toInt()
+
+    defaultConfig {
+        minSdk = libs.versions.juliePreview.androidLibrary.minSdk.get().toInt()
+    }
 }
 
 // Custom build directory
