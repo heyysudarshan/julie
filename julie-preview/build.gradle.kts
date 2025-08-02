@@ -29,6 +29,7 @@ kotlin {
             implementation(libs.compose.multiplatform.ui)
             implementation(libs.compose.multiplatform.foundation)
             implementation(projects.library)
+            implementation(projects.juliePreviewShared)
         }
     }
 }
