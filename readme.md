@@ -43,14 +43,14 @@ make Julie available in any module's classpath, copy and paste the following lin
 ```kotlin
 dependencies {
     // Other dependencies will go here
-    implementation("io.github.heyysudarshan:julie:1.0.0")
+    implementation("io.github.heyysudarshan.julie:julie:1.0.0-alpha3")
 }
 ```
 
 For quickly copying the dependency, you can use the following command:
 
 ```kotlin
-implementation("io.github.heyysudarshan:julie:1.0.0")
+implementation("io.github.heyysudarshan.julie:julie:1.0.0-alpha3")
 ```
 
 #### For Compose Multiplatform project
@@ -60,7 +60,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             // Other dependencies will go here
-            implementation("io.github.heyysudarshan:julie:1.0.0")
+            implementation("io.github.heyysudarshan.julie:julie:1.0.0-alpha3")
         }
     }
 }  
@@ -69,7 +69,7 @@ kotlin {
 For quickly copying the dependency, you can use the following command:
 
 ```kotlin
-implementation("io.github.heyysudarshan:julie:1.0.0")
+implementation("io.github.heyysudarshan.julie:julie:1.0.0-alpha3")
 ```
 
 If your project uses a version catalog for centralized dependency management, add the following
@@ -78,11 +78,11 @@ lines to your `libs.versions.toml` file:
 ```
 [versions]
 # Other version declarations will go here
-julie = "1.0.0"
+julie = "1.0.0-alpha3"
 
 [libraries]
 # Other libraries declarations will go here
-julie = { module = "io.github.heyysudarshan:julie", version.ref = "julie" }
+julie = { module = "io.github.heyysudarshan.julie:julie", version.ref = "julie" }
 ```
 
 Then you can refer to the dependency in your `build.gradle` like this:
